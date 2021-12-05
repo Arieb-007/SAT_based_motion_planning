@@ -10,3 +10,6 @@ the blocks (4, 4) and (0, 0), respectively. Moreover, The second robot should re
 after the first robot reaches its destination. Capture the behavior of the robots as a transition system and the
 requirement stated above as an LTL formula. Then through model checking, synthesize a trajectory for the
 robots. Use NuSMV model checker.
+
+![Screenshot (70)](https://user-images.githubusercontent.com/87232965/144746050-e809af4e-cfa8-42fc-ae12-d75977171500.png)
+
