@@ -36,5 +36,5 @@ G!((r1x=r2x& r1y=r2y)|(r1x=1& r1y=2)|(r1x=1& r1y=4)|(r1x=2& r1y=0)|(r1x=2& r1y=4
 (r2x=3& r2y=0)|(r2x=3& r2y=2))&F(G(r1x=4&r1y=4)&F((r1x=4&r1y=4)&(r2x=0& r2y=0)))
 
 
-
+![Screenshot (72)](https://user-images.githubusercontent.com/87232965/144746704-4cedf590-abb7-4c5c-b7e6-72c43dba7bd7.png)
 
