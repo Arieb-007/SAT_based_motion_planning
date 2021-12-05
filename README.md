@@ -13,3 +13,9 @@ robots. Use NuSMV model checker.
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/87232965/144746050-e809af4e-cfa8-42fc-ae12-d75977171500.png)
 
+## Specifications 
+Robots will avoid locations with obstacles and deter to be at same location at same time,
+eventually robot 1 will reach (4,4) and eventually robot 2 will reach (0,0) strictly after robot 1
+will reach (4,4)(robot 1 remains at (4,4)).
+
+
