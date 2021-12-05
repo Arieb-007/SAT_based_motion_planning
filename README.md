@@ -1,7 +1,7 @@
 # Dependency 
-Nusmv Model checker
-Familiarity of formal methods
-LTL specifications
+## Nusmv Model checker
+## Familiarity of formal methods
+## LTL specifications
 # Model-checker as a motion planner 
 
 Consider a 2D workspace which is divided into small rectangular blocks using a grid. The size of the
