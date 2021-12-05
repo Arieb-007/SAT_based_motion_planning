@@ -18,4 +18,9 @@ Robots will avoid locations with obstacles and deter to be at same location at s
 eventually robot 1 will reach (4,4) and eventually robot 2 will reach (0,0) strictly after robot 1
 will reach (4,4)(robot 1 remains at (4,4)).
 
+## pseudo LTL 
+always[~(headcollision)]andalways[ ~((robot_coordinates =obstacles)or(collision))]
+andeventually{robot1_coordinates =(4,4) andeventually[always(robot1_coordinates =(4,4) and
+eventually(robot2_coordinates =(0,0) )]}
+
 
