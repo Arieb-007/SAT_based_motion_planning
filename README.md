@@ -36,6 +36,15 @@ We have used !Φ in NuSMV code, because Φ is the specification that we want our
 ![Screenshot (74)](https://user-images.githubusercontent.com/87232965/144746813-268ff440-b7c1-4f5f-967a-31a5a324020d.png)
 
 ## Transition State(TS) 
+
 {(robot1_x,robot1_y),(robot2_x,robot2_y)}
+## Path Traced
+
+Transitions:{(0,0),(4,4)}=> {(0,1),(3,4)}=> {(0,2),(3,3)}=> {(0,3),(3,3)}=> {(1,3),(3,3)}=> {(2,3),(4,3)}=> {(3,3),(4,3)}
+=> {(3,4),(4,4)}=> {(4,4),(4,3)}=> {(4,4),(4,2)}=> {(4,4),(4,1)}=> {(4,4),(3,1)}=> {(4,4),(2,1)}=> {(4,4),(1,1)}
+=> {(4,4),(1,0)}=> {(4,4),(0,0)}
+
+
+![Screenshot (76)](https://user-images.githubusercontent.com/87232965/144746958-72b81d1f-1869-4bfa-ab91-79db6afb7288.png)
 
 
