@@ -35,3 +35,7 @@ We have used !Φ in NuSMV code, because Φ is the specification that we want our
 
 ![Screenshot (74)](https://user-images.githubusercontent.com/87232965/144746813-268ff440-b7c1-4f5f-967a-31a5a324020d.png)
 
+## Transition State(TS) 
+{(robot1_x,robot1_y),(robot2_x,robot2_y)}
+
+
