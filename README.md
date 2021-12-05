@@ -19,8 +19,8 @@ eventually robot 1 will reach (4,4) and eventually robot 2 will reach (0,0) stri
 will reach (4,4)(robot 1 remains at (4,4)).
 
 ## pseudo LTL 
-always[~(headcollision)]andalways[ ~((robot_coordinates =obstacles)or(collision))]
-andeventually{robot1_coordinates =(4,4) andeventually[always(robot1_coordinates =(4,4) and
+always[~(headcollision)]  and  always[ ~((robot_coordinates =obstacles)or(collision))]
+and   eventually{robot1_coordinates =(4,4) and eventually[always(robot1_coordinates =(4,4) and
 eventually(robot2_coordinates =(0,0) )]}
 
 
