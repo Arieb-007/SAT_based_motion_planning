@@ -33,4 +33,5 @@ We have used !Φ in NuSMV code, because Φ is the specification that we want our
 
 ![Screenshot (72)](https://user-images.githubusercontent.com/87232965/144746704-4cedf590-abb7-4c5c-b7e6-72c43dba7bd7.png)
 
+![Screenshot (74)](https://user-images.githubusercontent.com/87232965/144746813-268ff440-b7c1-4f5f-967a-31a5a324020d.png)
 
