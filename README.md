@@ -23,4 +23,14 @@ always[~(headcollision)]  and  always[ ~((robot_coordinates =obstacles)or(collis
 and   eventually{robot1_coordinates =(4,4) and eventually[always(robot1_coordinates =(4,4) and
 eventually(robot2_coordinates =(0,0) )]}
 
+## LTL specification:
+(r2x=2 & r2y=0)|(r2x=3 & r2y=0)|(r2x=3 & r2y=2) ) &F(G(r1x=4&r1y=4)&F((r1x=4&r1y=4)&(r2x=0 & r2y= 0))))
+G!((Y(r2x -r1x=1& r1y=r2y)& (r1x -r2x=1& r1y=r2y))|(Y(r1x -r2x=1& r1y=r2y)& (r2x -r1x=1& r1y=r2y))|
+(Y(r2y -r1y=1& r1x=r2x)& (r1y -r2y=1& r1x=r2x))|(Y(r1y -r2y=1& r1x=r2x)& (r2y -r1y=1& r1x=r2x)))&
+G!((r1x=r2x& r1y=r2y)|(r1x=1& r1y=2)|(r1x=1& r1y=4)|(r1x=2& r1y=0)|(r1x=2& r1y=4)|(r1x=2& r1y=0)|
+(r1x=3& r1y=0)|(r1x=3& r1y=2)|(r2x=1& r2y=2)|(r2x=1& r2y=4)|(r2x=2& r2y=0)|(r2x=2& r2y=4)|(r2x=2& r2y=0)|
+(r2x=3& r2y=0)|(r2x=3& r2y=2))&F(G(r1x=4&r1y=4)&F((r1x=4&r1y=4)&(r2x=0& r2y=0)))
+
+
+
 
